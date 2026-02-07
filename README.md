@@ -15,24 +15,24 @@ Where function meets form.
   <a href="https://discord.gg/p8GcbBH5MR"><img src="https://img.shields.io/discord/1450777325267456097?style=for-the-badge&color=00baaa&labelColor=161616&logo=discord&logoColor=white"></a>
 </p>
 
-<!-- Optional: Add screenshots here
+<!-- Optional but recommended: Add screenshots here
 <p align="center">
   <img src="assets/preview.png" alt="oxide [PORT_NAME] preview">
 </p>
 -->
 
 <p>
-<b>oxide</b> for [TOOL_NAME] brings the oxide colorscheme to [TOOL_DESCRIPTION] with OKLCH precision.
-A minimalist dark theme built around clarity and restraint, using a deep near-black background, crisp white foregrounds, and soft pastel accents to emphasize structure without visual noise.
+<b>oxide</b> for [TOOL_NAME] brings the oxide colorscheme to [TOOL_DESCRIPTION].
+A minimalist dark theme built around clarity and restraint, using a deep near-black background, crisp white foregrounds, and vibrant accent colors to emphasize structure without visual noise.
 </p>
 
 ## Design Philosophy
 
 oxide is built on three core principles:
 
-- **Function first**: If a color does not serve a purpose, it does not belong
-- **Visual silence**: High contrast is reserved for data that matters; everything else recedes
-- **Calculated colors**: Built with OKLCH color space so all colors have consistent brightness and work well together
+- **Function first**: Every color exists to convey information
+- **Visual silence**: Elegance emerges from what is intentionally omitted
+- **Systematic harmony**: Every color relates predictably to the others
 
 The full design philosophy and color system are documented in the [main oxide repository](https://github.com/oxidescheme/oxide).
 
@@ -74,15 +74,6 @@ Add this line to your [TOOL_NAME] configuration file (`[CONFIG_FILE_PATH]`):
 
 [Any advanced configuration options, customization, or features specific to this tool]
 
-## Color Palette
-
-oxide uses OKLCH color space for precise, perceptually uniform colors:
-
-- **Background**: Deep void-like `#161616` for optimal readability
-- **Foreground**: Crisp `#cecece` text that doesn't strain your eyes
-- **Accents**: 9 semantic colors with consistent lightness values
-- **[Tool-specific color usage]**: [Description of how colors are used in this specific tool]
-
 ## Contributing
 
 We follow the same philosophy as the main oxide project: minimalism doesn't mean stagnation.
@@ -91,6 +82,12 @@ We follow the same philosophy as the main oxide project: minimalism doesn't mean
 - PRs that improve clarity and consistency are welcome
 - Ensure changes align with oxide's functional aesthetic
 
+## Credits
+
+- **Port Creator:** [@[PORT_CREATOR]](https://github.com/[PORT_CREATOR])
+- **Current Maintainer:** [@[PORT_CREATOR]](https://github.com/[PORT_CREATOR])
+- **Contributors:** See [contributors list](https://github.com/oxidescheme/[PORT_NAME]/graphs/contributors)
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
@@ -98,3 +95,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 <p align="center">
 Copyright &copy; 2025-present oxidescheme
 </p>
+
