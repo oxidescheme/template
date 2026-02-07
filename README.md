@@ -20,10 +20,8 @@ Where function meets form.
 </p>
 -->
 
-<p>
-<b>oxide</b> for [TOOL_NAME](TOOL_WEBSITE) brings the oxide colorscheme to [TOOL_DESCRIPTION].
+*oxide* for [TOOL_NAME](TOOL_WEBSITE) brings the oxide colorscheme to [TOOL_DESCRIPTION].
 A minimalist dark theme built around clarity and restraint, using a deep near-black background, crisp white foregrounds, and vibrant accent colors to emphasize structure without visual noise.
-</p>
 
 ## Design Philosophy
 
