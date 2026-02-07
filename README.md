@@ -11,7 +11,6 @@ Where function meets form.
 <p align="center">
   <a href="https://github.com/oxidescheme/[PORT_NAME]/stargazers"><img src="https://img.shields.io/github/stars/oxidescheme/[PORT_NAME]?colorA=161616&colorB=00a6ff&style=for-the-badge"></a>
   <a href="https://github.com/oxidescheme/[PORT_NAME]/issues"><img src="https://img.shields.io/github/issues/oxidescheme/[PORT_NAME]?colorA=161616&colorB=ff5655&style=for-the-badge"></a>
-  <a href="[TOOL_WEBSITE]"><img src="https://img.shields.io/badge/Made%20for%20[TOOL_NAME]-9588ff?style=for-the-badge&logo=[TOOL_LOGO]&logoColor=white"></a>
   <a href="https://discord.gg/p8GcbBH5MR"><img src="https://img.shields.io/discord/1450777325267456097?style=for-the-badge&color=00baaa&labelColor=161616&logo=discord&logoColor=white"></a>
 </p>
 
@@ -22,7 +21,7 @@ Where function meets form.
 -->
 
 <p>
-<b>oxide</b> for [TOOL_NAME] brings the oxide colorscheme to [TOOL_DESCRIPTION].
+<b>oxide</b> for [TOOL_NAME](TOOL_WEBSITE) brings the oxide colorscheme to [TOOL_DESCRIPTION].
 A minimalist dark theme built around clarity and restraint, using a deep near-black background, crisp white foregrounds, and vibrant accent colors to emphasize structure without visual noise.
 </p>
 
