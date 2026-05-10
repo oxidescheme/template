@@ -20,22 +20,11 @@ Where function meets form.
 </p>
 -->
 
-*oxide* for [TOOL_NAME](TOOL_WEBSITE) brings the oxide colorscheme to [TOOL_DESCRIPTION].
-A minimalist dark theme built around clarity and restraint, using a deep near-black background, crisp white foregrounds, and vibrant accent colors to emphasize structure without visual noise.
-
-## Design Philosophy
-
-oxide is built on three core principles:
-
-- **Function first**: Every color exists to convey information
-- **Visual silence**: Elegance emerges from what is intentionally omitted
-- **Systematic harmony**: Every color relates predictably to the others
-
-The full design philosophy and color system are documented in the [main oxide repository](https://github.com/oxidescheme/oxide).
+*oxide* for [TOOL_NAME](TOOL_WEBSITE).
 
 ## Installation
 
-### [Installation Method 1 - if applicable]
+### [Installation Method 1]
 
 [Instructions for primary installation method]
 
@@ -43,9 +32,7 @@ The full design philosophy and color system are documented in the [main oxide re
 [example configuration]
 ```
 
-### [Installation Method 2 - if applicable]
-
-[Instructions for alternative installation method]
+### [Installation Method 2]
 
 1. Download the theme file from this repository
 2. Copy it to your [TOOL_NAME] configuration directory: `[CONFIG_PATH]`
@@ -59,25 +46,11 @@ The full design philosophy and color system are documented in the [main oxide re
 
 ## Configuration
 
-### Basic Usage
-
-Add this line to your [TOOL_NAME] configuration file (`[CONFIG_FILE_PATH]`):
-
-```[config_format]
-[basic configuration example]
-```
-
-### [Advanced Configuration Section - if applicable]
-
-[Any advanced configuration options, customization, or features specific to this tool]
+[Configuration options, customization, or features specific to this tool]
 
 ## Contributing
 
-We follow the same philosophy as the main oxide project: minimalism doesn't mean stagnation.
-
-- Report issues through [GitHub Issues](https://github.com/oxidescheme/[PORT_NAME]/issues)
-- PRs that improve clarity and consistency are welcome
-- Ensure changes align with oxide's functional aesthetic
+PRs welcome. Make sure colors match the palette in the [main repo](https://github.com/oxidescheme/oxide).
 
 ## Credits
 
@@ -92,4 +65,3 @@ MIT License - see [LICENSE](LICENSE) for details.
 <p align="center">
 Copyright &copy; 2025-present oxidescheme
 </p>
-
