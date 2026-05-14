@@ -20,7 +20,7 @@ Where function meets form.
 </p>
 -->
 
-*oxide* for [TOOL_NAME](TOOL_WEBSITE).
+oxide for [TOOL_NAME](TOOL_WEBSITE).
 
 ## Installation
 
@@ -63,5 +63,5 @@ PRs welcome. Make sure colors match the palette in the [main repo](https://githu
 MIT License - see [LICENSE](LICENSE) for details.
 
 <p align="center">
-Copyright &copy; 2025-present oxidescheme
+Copyright &copy; 2026-present oxidescheme
 </p>
