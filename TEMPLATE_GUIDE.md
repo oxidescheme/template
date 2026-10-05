@@ -52,9 +52,26 @@ Replace the following placeholders in `README.md`:
 
 ### Screenshots
 
-- Add preview images in `assets/` directory
-- Uncomment the screenshot section in the README
-- Use consistent screenshot style across ports
+Show oxide in normal use, with readable content that demonstrates the port's colors and UI.
+
+To make a preview:
+
+1. Apply oxide in the app and arrange the content you want to show.
+2. Use a window size that fits the app's layout. **1200 × 750** is a suggested starting point.
+3. Capture the app window with your preferred screenshot tool, keeping the native shadow on a transparent background when available.
+4. Save the PNG as `assets/preview.png`. Keep the capture's native resolution; shadow margins and display scaling affect the final pixel dimensions. Avoid stretching or upscaling it.
+5. Uncomment the screenshot block in `README.md` and check that its filename matches the saved image exactly.
+6. Check the rendered README at normal reading width. Increase the app's font size and recapture if the text becomes too small.
+
+Choose content that fits the tool:
+
+- **Terminals:** A shell prompt, representative command output, and a compact ANSI color palette.
+- **Editors:** Syntax-highlighted code with useful UI visible. Completion, search, or diagnostics can have separate screenshots when they show something distinct.
+- **Terminal apps:** The tool's own panels with useful content, such as a diff in Lazygit or files and a preview in Yazi.
+- **Notes and chat apps:** Sample notes or conversations that show text hierarchy and relevant controls.
+- **Userstyles:** A representative page for each supported website.
+
+Use sample content without private information. Hide unrelated windows, notifications, and unused panels. Avoid empty dashboards, excessive blank space, decorative backdrops, and annotations. Keep framing and font scale consistent across ports.
 
 ### Additional Badges
 
@@ -92,12 +109,21 @@ Always use the oxide OKLCH color palette:
 - Foreground: `#cecece`
 - Accent colors: Use semantic colors from oxide.nvim/lua/oxide/colors.lua
 
+### UI Color Usage
+
+**Read `oxide/UI_COLOR_GUIDE.md` before writing any theme files.** This guide explains:
+- The monochrome-first philosophy for UI chrome
+- When accents are appropriate (errors, success, warnings, active states)
+- How to map oxide colors to UI elements (borders, selections, tabs, etc.)
+
+Do not infer UI usage from `colors.lua` comments — those describe syntax highlighting, not UI chrome.
+
 ## Maintain Philosophy
 
 Remember oxide's core principles:
 
 - Function first
-- Visual silence  
+- Visual silence
 - Calculated colors
 - Minimalist approach
-
+- Monochrome-first UI, accents for semantic meaning only
